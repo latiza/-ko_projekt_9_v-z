@@ -1,0 +1,2 @@
+9.	
+Vízfogyasztás és víztakarékosság: Adatbázisok, amelyek nyomon követik a vízfogyasztási adatokat és a víztakarékossági intézkedéseket különböző régiókban. A weboldalak információkat nyújthatnak a víztakarékosság fontosságáról és gyakorlati tippeket adhatnak a lakosságnak.

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <title>Vízfogyasztási Adatok</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        #controls {
+            margin-bottom: 20px;
+        }
+        #waterChart {
+            max-width: 1000px; /* Növeljük a maximális szélességet */
+            height: 500px;      /* Magasság növelése */
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <h2>Vízfogyasztási Adatok Diagram</h2>
+    <div id="controls">
+        <label for="years">Évek száma: </label>
+        <input type="number" id="years" value="10" min="1" max="30">
+        
+        <label for="chartType">Diagram típusa: </label>
+        <select id="chartType">
+            <option value="line">Vonal</option>
+            <option value="bar">Oszlop</option>
+            <option value="pie">Kör</option>
+        </select>
+
+        <button onclick="generateChart()">Diagram Frissítése</button>
+    </div>
+    
+    <canvas id="waterChart"></canvas>
+
+   <script src="script.js"></script>
+</body>
+</html>
